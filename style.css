@@ -1,0 +1,121 @@
+/*About us css*/
+.heading {
+    font-size: 1.5rem;
+    font-family:roboto ;
+    text-transform: uppercase;
+    color: rgb(20, 24, 27);
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+}
+.heading::after{
+    background: #f3bf4d  ;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width:54px;
+}
+
+.container {
+    padding: 50px 0;
+}
+span {
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Sigmar', cursive;
+}
+.text {
+    line-height: 25px;
+    font-size: 14px;
+    color: #474747;
+    margin:10px
+}
+.container a:hover, a:active{
+    color: #ffb901;
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(0, 179, 119);
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display:flex;
+    justify-content: center;
+}
+
+
+/*index css-home page*/
+.mainhead {
+    font-size: 1.6rem;
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+    padding-top: 3rem;
+}
+.span1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 8rem;
+}
+.card img{
+    height: 15rem;
+    width: 12rem;
+    padding: 1.5rem;
+    background-color: rgb(219, 214, 214);
+    
+}
+.card {
+    align-items: center;
+    margin: 0.8rem;
+    height: 33rem;
+    width: 1.5rem;
+    padding-top: 3rem;
+    text-align: center;
+    
+}
+.card:first-child {
+    margin-left: 3rem;
+}
+.card:hover {
+    transform: scale(1.1, 1.1);
+  box-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+    
+}
+#carouselExampleControls .carousel-inner{
+    height: 25rem;
+}
+#form {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+/*Card-body*/
+#logincard {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff25;
+    color: #ffffff;
+}
+.form-group small {
+    color: #ffffff;
+}
+#list-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Products*/
+#list-items {
+    flex-wrap: wrap;
+    padding-top: 1rem; 
+}
+#list-items .class {
+    padding: 3rem;
+    margin: 1rem;
+}
